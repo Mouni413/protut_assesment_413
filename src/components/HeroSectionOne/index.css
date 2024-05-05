@@ -1,0 +1,23 @@
+.hero-section-one-container {
+  @apply flex flex-col justify-center bg-[aliceblue] pt-[30px];
+}
+.hero-section-one-heading {
+  @apply text-black text-[40px] font-extrabold text-center;
+  font-family: "Bree Serif";
+}
+.hero-section-card {
+  @apply flex flex-row justify-between mt-0;
+}
+.hero-section-card-one {
+  @apply flex flex-col justify-around items-center ml-[10%];
+}
+.hero-section-card-two {
+  @apply flex flex-col justify-around items-center mr-[10%];
+}
+#video-player {
+  @apply h-[600px] w-[600px];
+}
+.request-button {
+  @apply bg-[rgb(220,210,219)] text-[rgb(39,16,70)] text-xl font-[bold] flex flex-row justify-around items-center w-[140px] h-[50px] mt-5 mt-[50px] rounded-[50px] border-0 hover:bg-[rgb(39,16,70)] hover:text-[rgb(220,210,219)];
+  font-family: "Serif";
+}

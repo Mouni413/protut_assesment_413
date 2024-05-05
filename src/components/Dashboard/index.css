@@ -1,0 +1,30 @@
+.nav-bottom-container-1 {
+  @apply min-h-[50vh] flex flex-row pt-[50px] px-[50px];
+  /* margin-top: 58px; */
+  background: linear-gradient(
+    to bottom right,
+    rgb(0, 1, 64),
+    rgb(246, 89, 102)
+  );
+}
+.nav-card-1 {
+  @apply flex flex-col justify-center items-start;
+}
+.nav-card-heading {
+  @apply text-[white] text-[40px];
+  font-family: "Serif";
+}
+.nav-card-description {
+  @apply text-[rgb(220,210,219)] text-sm;
+  font-family: "Serif";
+}
+.request-button {
+  @apply bg-[rgb(220,210,219)] text-[rgb(39,16,70)] text-xl font-[bold] flex flex-row justify-around items-center w-[140px] h-[50px] mt-5 mt-[50px] rounded-[50px] border-0 hover:bg-[rgb(39,16,70)] hover:text-[rgb(220,210,219)];
+  font-family: "Serif";
+}
+.girl-image {
+  @apply h-[400px] ml-[90px];
+}
+.nav-card-2 {
+  @apply flex flex-col justify-center items-center ml-[25%];
+}

@@ -1,0 +1,16 @@
+.tab-container {
+  @apply flex flex-row justify-around items-center h-[50px];
+}
+.tab-container p {
+  @apply w-3/12 bg-[rgb(0,1,64)] text-[white] h-[50px] text-center text-2xl font-[bold] pt-2.5 hover:bg-[rgb(211,183,183)] hover:text-[rgb(0,1,64)];
+}
+.tab-container-card {
+  @apply flex flex-row bg-[rgb(211,183,183)] pb-2.5;
+}
+#video-player-two {
+  @apply h-[400px] w-[75vw] mt-2.5;
+}
+.request-button-hero {
+  @apply bg-[rgb(220,210,219)] text-[rgb(39,16,70)] text-xl font-[bold] flex flex-row justify-between items-center w-40 h-[50px] mt-[10%] px-2.5 rounded-[50px] border-0 hover:bg-[rgb(39,16,70)] hover:text-[rgb(220,210,219)];
+  font-family: "Serif";
+}

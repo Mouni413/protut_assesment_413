@@ -1,0 +1,35 @@
+.topnav {
+  @apply overflow-hidden bg-[#000140];
+}
+.topnav a {
+  @apply float-left text-[#f2f2f2] text-center no-underline text-xl px-4 py-3.5 hover:bg-[#ddd] hover:text-[rgb(116,49,49)];
+}
+.topnav a.active {
+  @apply bg-[#000140] text-[white];
+}
+.topnav-right {
+  @apply float-right;
+}
+.novisto-logo {
+  @apply h-[25px];
+}
+.dropdown {
+  @apply float-left overflow-hidden;
+}
+.dropdown .dropbtn {
+  @apply text-xl text-[white] bg-inherit m-0 px-4 py-3.5 border-[none];
+  outline: none;
+  font-family: inherit;
+}
+.dropdown:hover .dropbtn {
+  @apply bg-[#ddd] text-[rgb(116,49,49)];
+}
+.dropdown-content {
+  @apply hidden absolute bg-[#f9f9f9] min-w-[110px] shadow-[0px_8px_16px_0px_rgba(0,0,0,0.2)] z-[1];
+}
+.dropdown-content a {
+  @apply float-none text-[black] no-underline block text-left px-4 py-3 hover:bg-[#ddd];
+}
+.dropdown:hover .dropdown-content {
+  @apply block;
+}
